@@ -39,3 +39,30 @@
 
 # debug information files
 *.dwo
+
+# Arduino Build Artifacts (빌드 결과물)
+*.hex
+*.elf
+*.bin
+*.o
+*.obj
+*.out
+*.a
+*.lib
+
+# Temporary Build Folders
+build/
+bin/
+out/
+.build/
+
+# IDE Specific Files (에디터 설정)
+.vscode/
+.idea/
+*.suo
+*.user
+*.code-workspace
+
+# OS Specific Files (운영체제 찌꺼기)
+.DS_Store
+Thumbs.db
